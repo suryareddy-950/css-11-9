@@ -1,0 +1,51 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+header{
+    width:100%;
+    Height:6.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(143, 143, 248);
+    align-content:space-between ;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.login{
+    flex:1;
+}
+nav{
+    flex: 2;
+    align-items: center;
+}
+.logo{
+  text-align: center;
+}
+nav  li a:hover {
+    color: rgb(23, 27, 26);
+    background-color: aqua;
+}
+nav ul li:is(.Home,.Contect){
+    background-color:rgb(64, 64, 244);
+    color:white;
+}
+
+.class{
+    position: relative;
+}
+.class2{top: 100%;
+    position: absolute;
+    display:none;
+}
+.class:hover .class2{
+    display: block;
+    background-color: brown;
+}
